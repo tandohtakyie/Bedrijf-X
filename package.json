@@ -1,0 +1,26 @@
+{
+  "name": "bedrijf-x",
+  "version": "1.0.0",
+  "description": "Bedrijf-X",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tandohtakyie/Bedrijf-X.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tandohtakyie/Bedrijf-X/issues"
+  },
+  "homepage": "https://github.com/tandohtakyie/Bedrijf-X#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "routes": "^2.1.0"
+  }
+}
