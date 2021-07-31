@@ -9,6 +9,12 @@ const PORT = process.env.PORT || 5000;
 app.use(expressLayouts);
 app.set('view engine', 'ejs');
 
+// CSS
+app.use('/css',express.static(__dirname +'/css'));
+
+// LOCAL IMAGES
+app.use(express.static(__dirname + '/images/'));
+
 // Route
 app.use('/', require('./routes/index'));
 

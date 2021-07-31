@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+    color: #233553 !important;
+}
+.ptb-20{
+    padding: 20px 0 !important;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.pt-30{
+    padding-top: 30px;
+}
+.primary-color{
+    color: #233553;
+}
+
+.secondary-color{
+    color: #25baaa;
+}
+
+
+@media (min-width: 576px) {  }
+
+@media (min-width: 768px) { 
+    .space-top{
+        padding-top: 30px;
+    }
+ }
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) { 
+    
+}
+
+@media (min-width: 1400px) {  
+
+}
